@@ -1,0 +1,20 @@
+{
+  "name": "nurturee-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.13",
+    "dayjs-ext": "^2.1.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "form-data": "^4.0.2",
+    "multer": "^1.4.5-lts.2",
+    "openai": "^4.0.0"
+  }
+}
