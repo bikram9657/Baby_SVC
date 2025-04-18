@@ -1,3 +1,5 @@
+// START OF FILE - nurturetrack_backend_v1
+
 import express from 'express';
 import multer from 'multer';
 import dotenv from 'dotenv';
@@ -233,3 +235,5 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`NurtureTrack backend server listening on http://localhost:${port}`);
 });
+
+// END OF FILE - nurturetrack_backend_v1
